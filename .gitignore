@@ -29,3 +29,4 @@ Thumbs.db        # Windows
 # Model weights (keep folder, ignore contents)
 weights/*
 !weights/.gitkeep
+
