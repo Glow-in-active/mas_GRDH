@@ -25,3 +25,7 @@ __pycache__/
 .DS_Store        # macOS
 Thumbs.db        # Windows
 *.swp            # Vim swap files
+
+# Model weights (keep folder, ignore contents)
+weights/*
+!weights/.gitkeep
