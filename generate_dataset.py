@@ -55,9 +55,14 @@ DATASETS = {
     "chatgpt": REPO / "text_prompt_dataset" / "chatgpt_dataset.txt",
     "own1": REPO / "text_prompt_dataset" / "own1_dataset.txt",
     "own2": REPO / "text_prompt_dataset" / "own2_dataset.txt",
-    "own3": REPO / "text_prompt_dataset" / "own1_dataset.txt",
-    "own4": REPO / "text_prompt_dataset" / "own2_dataset.txt",
-    "own5": REPO / "text_prompt_dataset" / "own1_dataset.txt",
+    "own3": REPO / "text_prompt_dataset" / "own3_dataset.txt",
+    "own4": REPO / "text_prompt_dataset" / "own4_dataset.txt",
+    "own5": REPO / "text_prompt_dataset" / "own5_dataset.txt",
+    "own6": REPO / "text_prompt_dataset" / "own6_dataset.txt",
+    "own7": REPO / "text_prompt_dataset" / "own7_dataset.txt",
+    "own8": REPO / "text_prompt_dataset" / "own8_dataset.txt",
+    "own9": REPO / "text_prompt_dataset" / "own9_dataset.txt",
+
 }
 
 def object_exists(s3, bucket: str, key: str) -> bool:
